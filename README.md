@@ -17,7 +17,13 @@ After installing the dependencies, you can simply run
 
 ## Usage
 
-You may attach CSS rules of hanzi by putting
+Add `lang` attribute to the `<html>` element in your layout, to specify the main language of your site.
+
+```html
+<html lang="zh-Hans-CN">
+```
+
+Attach CSS rules of hanzi by putting
 
 ```html
 <link rel="stylesheet" href="path/src/css/han.min.css">

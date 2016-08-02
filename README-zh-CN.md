@@ -17,21 +17,25 @@
 
 ## 用法
 
-在你的布局页面的 `<head>` 区域中加入
+为主题布局页面的 `<html>` 增加 lang 属性，比如网页内容以简体中文为主
+
+```html
+<html lang="zh-Hans-CN">
+```
+
+在主题布局页面的 `<head>` 中加入“汉字标准格式”的样式
 
 ```html
 <link rel="stylesheet" href="path/src/css/han.min.css">
 ```
 
-来引用汉字标准格式的 CSS 文件。
-
 或者，你也可以使用 CDN 版本，比如
 
 ```html
-<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/Han/3.2.7/han.min.css">
+<link href="//cdn.bootcss.com/Han/3.3.0/han.min.css" rel="stylesheet">
 ```
 
-在重新生成之前，你很可能需要清除缓存，以确保重新渲染文章
+在重新生成之前，你需要清除缓存，以确保重新渲染文章
 
     $ hexo clean
 
