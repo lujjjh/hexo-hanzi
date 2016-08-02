@@ -3,41 +3,39 @@
 [![Build Status](https://travis-ci.org/lujjjh/hexo-hanzi.svg?branch=master)](https://travis-ci.org/lujjjh/hexo-hanzi)
 [![NPM version](https://img.shields.io/npm/v/hexo-hanzi.svg)](https://www.npmjs.com/package/hexo-hanzi)
 
-[中文](README-zh-CN.md)
+[English](README-en.md)
 
-Postrender your posts with [hanzi (漢字標準格式)][hanzi].
+使用[汉字标准格式][hanzi]后渲染文章。
 
-## Installation
+## 安装
 
-This package requires Cairo to be installed. For more details, see [canvas][node-canvas-installation].
+安装这个包之前，你需要先安装 Cario。详情请参见 [canvas][node-canvas-installation]。
 
-After installing the dependencies, you can simply run
+安装完依赖之后，执行
 
     $ npm install --save hexo-hanzi
 
-## Usage
+## 用法
 
-Add `lang` attribute to the `<html>` element in your layout, to specify the main language of your site.
+为主题布局页面的 `<html>` 增加 lang 属性，比如网页内容以简体中文为主
 
 ```html
 <html lang="zh-Hans-CN">
 ```
 
-Attach CSS rules of hanzi by putting
+在主题布局页面的 `<head>` 中加入“汉字标准格式”的样式
 
 ```html
 <link rel="stylesheet" href="path/src/css/han.min.css">
 ```
 
-in the `<head>` section in your layout.
-
-Alternatively, you may also use a CDN version such as
+或者，你也可以使用 CDN 版本，比如
 
 ```html
-<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/Han/3.2.7/han.min.css">
+<link href="//cdn.bootcss.com/Han/3.3.0/han.min.css" rel="stylesheet">
 ```
 
-Before regenerating files, you probably want to clear the cache so that posts can be rerendered properly.
+在重新生成之前，你需要清除缓存，以确保重新渲染文章
 
     $ hexo clean
 
