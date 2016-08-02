@@ -1,6 +1,6 @@
 {
   "name": "hexo-hanzi",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Postrender the content of posts with han-css",
   "main": "index.js",
   "scripts": {
