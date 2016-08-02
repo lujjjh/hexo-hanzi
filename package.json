@@ -1,7 +1,7 @@
 {
   "name": "hexo-hanzi",
   "version": "0.1.0",
-  "description": "Postrender the content of posts with han-css",
+  "description": "Postrender the content of posts with hanzi (漢字標準格式)",
   "main": "index.js",
   "scripts": {
     "test": "mocha"

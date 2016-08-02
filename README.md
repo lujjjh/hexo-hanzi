@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/lujjjh/hexo-hanzi.svg?branch=master)](https://travis-ci.org/lujjjh/hexo-hanzi)
 [![NPM version](https://img.shields.io/npm/v/hexo-hanzi.svg)](https://www.npmjs.com/package/hexo-hanzi)
 
-Postrender your posts with [han-css][han-css].
+Postrender your posts with [hanzi (漢字標準格式)][hanzi].
 
 ## Installation
 
@@ -36,5 +36,5 @@ Finally, delete the database and regenerate files
     $ hexo clean && hexo generate
 
 
-[han-css]: https://css.hanzi.co/
+[hanzi]: https://css.hanzi.co/
 [node-canvas-installation]: https://github.com/Automattic/node-canvas#installation
