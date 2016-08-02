@@ -1,6 +1,6 @@
 {
   "name": "hexo-hanzi",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Postrender the content of posts with hanzi (漢字標準格式)",
   "main": "index.js",
   "scripts": {
