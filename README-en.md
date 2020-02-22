@@ -9,10 +9,6 @@ Postrender your posts with [hanzi (漢字標準格式)][hanzi].
 
 ## Installation
 
-This package requires Cairo to be installed. For more details, see [canvas][node-canvas-installation].
-
-After installing the dependencies, you can simply run
-
     $ npm install --save hexo-hanzi
 
 ## Usage

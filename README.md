@@ -9,10 +9,6 @@
 
 ## 安装
 
-安装这个包之前，你需要先安装 Cario。详情请参见 [canvas][node-canvas-installation]。
-
-安装完依赖之后，执行
-
     $ npm install --save hexo-hanzi
 
 ## 用法
